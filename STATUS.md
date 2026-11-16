@@ -4,7 +4,7 @@ Publication snapshot: 2026-11-16. App **3.2.0**, versionCode **16**, ID `com.lun
 
 | Item | Evidence |
 | --- | --- |
-| Supplied source ZIP | Integrity checked; original preserved under ``. |
+| Supplied source ZIP | Integrity checked; original preserved at the repository root. |
 | Supplied APK | ZIP integrity checked; requires signing. |
 | DEX check | Passed: DEX 038, 1,784 classes, zero call-site IDs and zero methods using `invoke-custom`. Structural check only. |
 | Unit tests | 61 `@Test` annotations. Historical handover reports 61 passing JVM tests; not rerun for publication. |
@@ -24,4 +24,4 @@ Publication snapshot: 2026-11-16. App **3.2.0**, versionCode **16**, ID `com.lun
 
 ## Publication changes
 
-Added current documentation, notices, contribution guidance, issue forms, checksums, a landing page, workflows, and a publishing helper. Removed obsolete signature sidecars and Python bytecode from the editable copy. Android sources, resources, and supplied downloads remain unchanged.
+Published the original source ZIP and unsigned APK, a current README, build/privacy/recovery/status guides, changelog, contribution guidance, dependency notices, checksums, and a static landing page. Android source is available inside the original archive; it was not modified or rebuilt.

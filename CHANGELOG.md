@@ -12,4 +12,4 @@ Device performance is unverified by this publication. The supplied APK is unsign
 
 ## Project publication — 2026-11-16
 
-Refreshed documentation, privacy/recovery notes, notices, issue forms, landing page, checksums, and workflows. Original APK/ZIP preserved. Removed obsolete sidecars/cache files from the editable copy. Android application source is unchanged.
+Added project documentation, privacy/recovery notes, third-party notices, a landing page, and checksums. Both original supplied files are preserved unchanged. No Android application source changes or rebuild were made for publication.

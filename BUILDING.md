@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Linux, JDK 17+ (`java`, `jar`, `keytool`), Python 3, curl, unzip, and zip. Main build: Kotlin, Android platform 34, build-tools 34.0.0. Run from the project root:
+Linux, JDK 17+ (`java`, `jar`, `keytool`), Python 3, curl, unzip, and zip. Main build: Kotlin, Android platform 34, build-tools 34.0.0. First extract `LunarOptimizer-source-3_2_0.zip` and enter its `LunarOptimizer` directory. Run commands from that extracted project root:
 
 ```bash
 bash tools/get-toolchain.sh
@@ -42,8 +42,6 @@ bash build-test.sh
 
 Tests use fakes for shell and journal logic. They do not prove HyperOS compatibility. The runner has historical fallback paths; explicitly set the environment variables above.
 
-## Workflows
+## Repository and website
 
-- **Project checks** validates publication files and the supplied APK on pushes/PRs.
-- **build-apk** is manual. Read it before running: signing secrets are `KEYSTORE_B64`, `KS_PASS`, `KEY_ALIAS`, `KEY_PASS`; without them it uses a throwaway development key. It has not been executed for publication.
-- **Project website** manually deploys `site/`. Enable GitHub Pages with GitHub Actions in repository settings first.
+The original source ZIP includes its historical build workflow. No new Android CI build was executed for publication. This repository publishes the landing page from `main` at the repository root using GitHub Pages.
